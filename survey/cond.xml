@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gbk"?>
+<questions>
+	<q1>
+		<title>你开心吗？</title>
+		<type>单选/多选</type>
+		<answers>
+			<a1>开心</a1>
+			<a2>不开心</a2>
+		</answers>
+		<result>
+			<a1>0</a1>
+			<a2>2</a2>
+		</result>
+	</q1>
+</questions>

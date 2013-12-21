@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>SurveyServlet</servlet-name>
+    <servlet-class>servlet.SurveyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InputServlet</servlet-name>
+    <servlet-class>servlet.InputServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AskToServlet</servlet-name>
+    <servlet-class>servlet.AskToServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResultToServlet</servlet-name>
+    <servlet-class>servlet.ResultToServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>servlet.DeleteServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>SurveyServlet</servlet-name>
+    <url-pattern>/SurveyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InputServlet</servlet-name>
+    <url-pattern>/InputServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AskToServlet</servlet-name>
+    <url-pattern>/AskToServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResultToServlet</servlet-name>
+    <url-pattern>/ResultToServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
